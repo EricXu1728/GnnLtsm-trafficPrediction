@@ -44,7 +44,7 @@
 
 ## Possible Improvements
 
-- Due to the lack of datasets on relationships between objects in a driving scenerio
+- Lack of datasets on relationships between objects in a driving scenerio
   - Ideally would use a dataset that had more information on what a car is doing and their relationship to another car. For example:
     - Yielding to another car/pedestrian
     - Stopping for another car
