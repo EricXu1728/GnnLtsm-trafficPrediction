@@ -29,8 +29,8 @@
 - Compare the accuracy of GNN and LTSM
 - GNN still requires more work/research as of 5/7/2023
 - Structure of GNN program
- - Graph each frame of a video as a node graph
-  - Ground truth will have positions of box cordinates encoded into nodes and the distance between each object as a relationship
+  - Graph each frame of a video as a node graph
+     - Ground truth will have positions of box cordinates encoded into nodes and the distance between each object as a relationship
  - Train a GNN to perform predictions on what each relationship would look like
   - Given a node graph, it should guess what the relationship will b
  - Give an LTSM sets of these graphs of tx - ty-1 to predict the box cordinates of each node in ty
