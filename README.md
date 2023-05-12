@@ -40,7 +40,7 @@
 
 - The GNN-based and LTSM based programs are implimented in Pytorch
 - Compare the accuracy of GNN and LTSM
-- GNN still requires more work/research as of 5/7/2023
+- GNN still requires more work
 - Structure of GNN program
   - Graph each frame of a video as a node graph
      - Ground truth will have positions of box cordinates encoded into nodes and the distance between each object as a relationship
