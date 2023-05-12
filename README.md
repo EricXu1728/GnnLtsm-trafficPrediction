@@ -23,6 +23,19 @@
 
 ---
 
+## Outline
+
+- Create an LTSM that accepts a sequence of node graphs of a frame of a scene to make predictions on the next frame. 
+  - <img src="readme_images/graphLtsm_outline.png" width="300">
+  - These graphs can be constructed using a Graph Neural Network
+
+- Create another solo LTSM that accepts a sequence of one object to predict where it will be next frame
+  - <img src="readme_images/sololtsm_outline.png" width="300">
+
+- Compare the accuracy of both
+
+---
+
 ## Results
 
 - The GNN-based and LTSM based programs are implimented in Pytorch
@@ -34,11 +47,7 @@
   - Train a GNN to perform predictions on what each relationship would look like
     - Given a node graph, it should guess what the relationship will be
   - Give an LTSM sets of these graphs of tx - ty-1 to predict the box cordinates of each node in ty
- 
-- Structure of pure LTSM program
-  - Get a sequence of a single object which is done by using the unique ID given in the data set
-  - Train to guess the next step of the single object
-  - Perform this accross multiple objects in a video
+
 
 ---
 
