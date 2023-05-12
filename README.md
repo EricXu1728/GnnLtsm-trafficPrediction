@@ -26,11 +26,11 @@
 ## Outline
 
 - Create an LTSM that accepts a sequence of node graphs of a frame of a scene to make predictions on the next frame. 
-  - <img src="readme_images/graphLtsm_outline.png" width="300">
+  - <img src="readme_images/graphLtsm_outline.jpg" width="300">
   - These graphs can be constructed using a Graph Neural Network
 
 - Create another solo LTSM that accepts a sequence of one object to predict where it will be next frame
-  - <img src="readme_images/sololtsm_outline.png" width="300">
+  - <img src="readme_images/sololtsm_outline.jpg" width="300">
 
 - Compare the accuracy of both
 
